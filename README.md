@@ -64,7 +64,7 @@ Between 2015 and 2025, each kWh in Bangladesh became slightly more carbon-intens
 
 ```
 sql/01_load.sql        loads the two CSVs into DuckDB tables for the 4 countries, 2000–2025
-sql/02_questions.sql   one named query per question (CTEs, FILTER aggregates, window functions)
+sql/02_questions.sql   one named query per question (FILTER aggregates, window functions, subqueries)
 analysis.py            runs the SQL, saves each result to results/*.csv, draws charts/*.png
 results/               query outputs (the table view behind every chart)
 charts/                the four charts above
